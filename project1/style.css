@@ -16,3 +16,11 @@ img {
     object-fit: cover;
     object-position: center;
 }
+
+h1{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
