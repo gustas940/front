@@ -1,0 +1,21 @@
+body {
+    background: rgb(28,145,12);
+    background: radial-gradient(circle, rgba(28,145,12,1) 0%, rgba(9,255,0,1) 100%);
+}
+
+h1 {
+text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+}
+
+section {
+    min-height: 200px;
+    background: rgb(50,210,29);
+background: radial-gradient(circle, rgba(50,210,29,1) 0%, rgba(14,128,10,1) 100%);
+}
