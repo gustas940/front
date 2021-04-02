@@ -1,3 +1,21 @@
 body {
-    background: green;
+    background: rgb(167, 170, 167);
 }
+img {
+    width: 50px;
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+}
+
+section {
+    background: chartreuse;
+}
+
+header {
+    height: 100px;
+}
+
