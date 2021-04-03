@@ -1,9 +1,21 @@
 body {
     background: rgb(167, 170, 167);
 }
-img {
+
+img.header-logo {  
     width: 50px;
+    max-height: 100;
     float: left;
+}
+
+img.visos-kitos-nuotraukos {
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+
+img.antros-sekcijos-nuotrauka {
+    float: right;
 }
 
 h1 {
@@ -11,11 +23,31 @@ h1 {
     color: gold;
 }
 
+
 section {
-    background: chartreuse;
+   min-height: 500px;
+}
+
+section.pirma-sekcija {
+    background: rgb(118, 197, 15);
+}
+
+section.antra-sekcija {
+    background: blue;
+}
+
+section.trecia-sekcija {
+    background: red;
 }
 
 header {
     height: 100px;
 }
 
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
