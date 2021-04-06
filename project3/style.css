@@ -28,18 +28,6 @@ section {
    min-height: 500px;
 }
 
-section.pirma-sekcija {
-    background: rgb(118, 197, 15);
-}
-
-section.antra-sekcija {
-    background: blue;
-}
-
-section.trecia-sekcija {
-    background: red;
-}
-
 header {
     height: 100px;
 }
@@ -50,4 +38,36 @@ h2 {
 
 p {
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    min-height: 50px;
+}
+section.spalva1 {
+background-color: rgb(99, 10, 134);
+}
+
+h2.textas1 {
+    color: red;
+}
+
+p.pastraipa1 {
+    color: yellow;
+}
+
+h2.textas2 {
+    color: blue;
+}
+
+p.pastraipa2 {
+    color: orange;
+}
+
+h2.texstas3 {
+    color: yellow;
+}
+
+p.pastraipa3 {
+    color: red;
 }
