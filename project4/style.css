@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+section {
+    width: 20%;
+    height: 50px;
+    background: red;
+}
+
+section.pirma {
+    background: green;
+}
+
+section.antra {
+    background: violet;
+}
