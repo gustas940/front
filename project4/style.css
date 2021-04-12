@@ -16,44 +16,50 @@ section {
 
 section.pirma {
     background: green;
+    width: 25%;
 }
 
 section.antra {
     background: violet;
+    width: 25%;
 }
 
 section.trece {
     background: yellowgreen;
+    width: 25%;
 }
 
 section.ketvirta {
     background: violet;
+    width: 25%;
 }
 
 section.penkta {
     background: turquoise;
+    width: 20%;
 }
 
 section.sesta {
     background: tomato;
+    width: 20%;
 }
 
 section.setinta {
     background: yellow;
+    width: 20%;
 }
 
 section.astunta {
-    background: red;
-}
-
-section.astunta {
-    background: royalblue;
+    background: rgb(172, 180, 212);
+    width: 20%;
 }
 
 section.devinta {
-    background: green;
+    background: royalblue;
+    width: 20%;
 }
 
 section.desimta {
     background: grey;
+    width: 100%;
 }
