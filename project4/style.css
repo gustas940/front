@@ -70,3 +70,16 @@ img.nuotrauka {
     height: 300px;
     object-fit: cover;
 }
+
+img.nuotrauka2 {
+    height: 50px;
+    width: 50px;
+}
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: rgb(230, 134, 117);
+}
