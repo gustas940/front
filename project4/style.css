@@ -10,7 +10,7 @@ main {
 
 section {
     width: 20%;
-    height: 50px;
+    height: 300px;
     background: red;
 }
 
@@ -27,6 +27,7 @@ section.antra {
 section.trece {
     background: yellowgreen;
     width: 25%;
+    
 }
 
 section.ketvirta {
@@ -64,20 +65,8 @@ section.desimta {
     width: 100%;
 }
 
-img.nuotrauka1 {
+img.nuotrauka {
     width: 100%;
-    height: 50px;
-    object-fit: cover;
-}
-
-img.nuotrauka2 {
-    width: 100%;
-    height: 50px;
-    object-fit: cover;
-}
-
-img.nuotrauka3 {
-    width: 100%;
-    height: 50px;
+    height: 300px;
     object-fit: cover;
 }
