@@ -12,6 +12,9 @@ section {
     width: 20%;
     height: 300px;
     background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 section.pirma {
@@ -27,12 +30,11 @@ section.antra {
 section.trece {
     background: yellowgreen;
     width: 25%;
-    
 }
 
 section.ketvirta {
     background: violet;
-    width: 25%;
+    width: 25%; 
 }
 
 section.penkta {
@@ -82,4 +84,16 @@ header{
     height: 100px;
     width: 100%;
     background: rgb(230, 134, 117);
+}
+
+footer {
+    height: 100px;
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.footer {
+    color: lightgrey;
 }
