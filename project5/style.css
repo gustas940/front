@@ -1,5 +1,6 @@
 body {
-    background: rgb(245, 87, 87);
+    background: rgb(174,238,219);
+    background: radial-gradient(circle, rgba(174,238,219,1) 0%, rgba(115,0,35,1) 100%);
 }
 
 img.header-logo {
@@ -19,10 +20,15 @@ header {
 }
 
 section {
-    background: green;
+    padding: 5px;
+    margin-top: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(150,233,148,1) 100%);
     width: 21%;
     display: flex;
     flex-wrap: wrap;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 img.section-img {
@@ -31,10 +37,20 @@ img.section-img {
     object-fit: cover;
 }
 
-h3.spirgis1 {
-    width: 50%;
+h3.title {
+    width: 80%;
 }
 
-p.spirgis2 {
-    width: 50%;
+p.age {
+    width: 20%;
+}
+
+p.description {
+    font-size: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
