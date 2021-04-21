@@ -1,6 +1,7 @@
 body {
     background: rgb(174,238,219);
     background: radial-gradient(circle, rgba(174,238,219,1) 0%, rgba(115,0,35,1) 100%);
+    font-family: 'Jura', sans-serif;
 }
 
 img.header-logo {
@@ -53,4 +54,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    background: rgb(174,238,219);
+    background: radial-gradient(circle, rgba(174,238,219,1) 0%, rgba(219,107,245,1) 100%);
 }
