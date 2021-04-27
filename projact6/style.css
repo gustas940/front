@@ -23,3 +23,26 @@ a {
 a.spalva {
     color: chartreuse;
 }
+
+section.section1 {
+    width: 10%;
+    background: darkmagenta;
+}
+
+section.section2 {
+    width: 65%;
+    background: coral;
+}
+
+section.section3 {
+    width: 25%;
+    background: cyan;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    height: calc(100vh - 50px);
+}
