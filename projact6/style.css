@@ -53,3 +53,18 @@ img.section1-images {
     vertical-align: top;
     object-fit: cover;
 }
+
+img.section2-images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+
+}
+
+li.li1 {
+    color: red;
+}
