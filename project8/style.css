@@ -1,0 +1,30 @@
+section {
+    width: 300px;
+    border: 5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content:center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 2.5em;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    border-radius: 22%;
+}
+
