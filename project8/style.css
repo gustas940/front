@@ -1,30 +1,45 @@
 section {
-    width: 300px;
-    border: 5px solid black;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 1em;
+    box-sizing: border-box;
+
     display: flex;
     flex-wrap: wrap;
-    color: black;
-    justify-content:center;
-}
-
-main {
-    display: flex;
     justify-content: center;
-    margin: 2.5em;
 }
 
-img {
-    width: 250px;
-    height: 250px;
+img.section1-img {
+    width: 30%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-p {
+h2.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    font-weight: 900;
     text-align: center;
 }
 
-input {
-    width: 200px;
-    height: 50px;
-    border-radius: 22%;
+p.section1-content {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+    margin: 0;
 }
 
+input.section1-input {
+    background: black;
+    color: wheat;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 0.55em;
+    padding: 0.8em 0 0.8em 0;
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
