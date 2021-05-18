@@ -1,0 +1,35 @@
+section {
+    background: palevioletred;
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    color: white;
+    padding: 1em 1em 1em 1em;
+    border-radius: 5px;
+    margin: 2em;
+}
+
+    img.section1-img {
+    width: 70px;
+}
+
+h2.section1-h2 {
+    font-size: 1.7em;
+    width: 100%;
+    text-align: center;
+}
+
+p.section1-p {
+    text-align: center;
+    margin: 0;
+}
+
+input.section1-input {
+    border-radius: 75px;
+    width: 100%;
+    padding: 0.6em 0em 0.6em 0em;
+    color: palevioletred;
+}

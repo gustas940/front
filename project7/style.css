@@ -1,0 +1,16 @@
+body {
+    background: grey;
+}
+
+section {
+    width: 20vw;
+    height: 50vh;
+    padding: 3em 2em 1em 5em;
+    background: hotpink;
+    margin: 1em 2em 3em 4em;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
