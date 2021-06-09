@@ -4,7 +4,7 @@ body {
 
 section {
     width: 200px;
-    min-height: 400px;
+    height:min-content;
     border-radius: 4%;
     display: flex;
     flex-wrap: wrap;
@@ -22,24 +22,26 @@ img.img {
 div.time {
     width: 100%;
     color: purple;
-    margin-top: 3em
+    margin-top: 2em;
+    padding: 0 1em 0 1em;
 }
 
 p.time-text {
     margin: 0;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 h2.post-one {
     margin: 0;
 }
 
-p.content {
+p.content-text {
     margin: 0;
 }
 
 p.info-text-bottom {
     margin: 0;
+    font-size: 0.7em;
 }
 
 p.info-text-top{
@@ -52,11 +54,14 @@ div.image {
 
 div.title {
     width: 100%;
+    padding: 0 1em 0 1em;
 }
 
 div.content {
     width: 100%;
     color: gray;
+    margin: 1em 0 0 0;
+    padding: 0 1em 0 1em;
 }
 
 div.info {
@@ -64,4 +69,7 @@ div.info {
     display: flex;
     background-color: rgb(214, 89, 131);
     color: white;
+    margin: 1.5em 0 0 0;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
 }
